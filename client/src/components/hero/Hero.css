@@ -1,0 +1,112 @@
+.hero{
+    display: flex;
+    width: 100%;
+    height: 512px;
+    background-color: #F6F9FE;
+    padding: 122px 0px 0px 0px;
+    margin: 0px;
+}
+
+.hero .hero-container{
+    /* Dos columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+    height: 436px;
+    padding: 0px 0px 0px 150px;
+    gap: 16px;
+}
+
+.hero-text h1{
+    width: 100%;
+    height: 236px;
+    line-height: 59px;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: Atkinson Hyperlegible;
+    color: #041E49;
+    text-align: left;
+    margin: 0px;
+}
+
+.hero-text h2{
+    width: 100%;
+    height: 90px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Atkinson Hyperlegible;
+    color: #041E49;
+    text-align: left;
+    margin: 0px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 669px;
+    height: 472px;
+    position: relative; /* Añadido para posicionar correctamente los hijos */
+  }
+  
+  .fondo {
+    display: flex;
+    position: relative; /* Cambiado a relative para que no interfiera con el z-index */
+    left: -42px;
+    width: 700px;
+    height: 472px;
+    background-color: #005EB8;
+    border-radius: 24px;
+    z-index: 1; /* Asegura que el fondo esté detrás de los cuadros */
+  }
+  
+  .cuadros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 148px;
+    position: relative; /* Asegura que el z-index funcione */
+    z-index: 2; /* Coloca los cuadros por encima del fondo */
+  }
+  
+  .cuadros img {
+    position: relative;
+    width: 148px;
+    height: 148px;
+    padding-top: 20px;
+  }
+
+  .persona{
+    position: relative;
+    width: 378px;
+    height: 417px;
+    top: 57px;
+    left: -770px;
+    z-index: 2;
+  }
+
+  .movil{
+    position: relative;
+    width: 240x;
+    height: 435px;
+    top: -20px;
+    left: -870px;
+    z-index: 1;
+  }
+
+  .qr{
+    position: relative;
+    width: 240px;
+    height: 435px;
+    top: 82px;
+    left: -1020px;
+    z-index: 1;
+  }
