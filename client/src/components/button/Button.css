@@ -1,0 +1,51 @@
+.button-contactar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 93px;
+    background-color: #d50032; 
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    font-weight: 700; 
+    padding: 8px 12px;
+    gap: 8px;
+    border: none; 
+    border-radius: 33px; 
+    cursor: pointer;
+}
+
+.button-tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 98px;
+    color: #041E49; 
+    font-size: 15px; 
+    font-weight: 700; 
+    padding: 8px 12px;
+    gap: 8px; 
+    border-radius: 33px; 
+    cursor: pointer;
+}
+
+.button-tienda img {
+    height: 17px;
+    width: 17px;
+}
+.button-lupa {
+    background-color: #f6f9fe00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-lupa img {
+    height: 17px;
+    width: 17px;
+}

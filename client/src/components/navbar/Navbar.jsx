@@ -1,5 +1,7 @@
-import { useState, useEffect, useContext } from 'react';
-import './navbar.css';
+//import { useState, useEffect, useContext } from 'react';
+import './Navbar.css';
+import Button from '../button/Button';
+//import {button} from './button.css';
 
 const Navbar = () => {
 
@@ -14,16 +16,14 @@ const Navbar = () => {
         <li><a href="/">Actualidad</a></li>
       </ul>
       <div className='navbar-buttons'> 
-        <button>
-          Contactar
-        </button>
-        <button>
+        <Button children={'Contactar'} className={'contactar'}></Button>
+        <Button children={'Tienda'} className={'tienda'}>
           <img src="./carro-de-la-compra.png" alt="Logo carrito" />
           Tienda
-        </button>
-        <button>
+        </Button>
+        <Button className={'lupa'}> 
           <img src="./search.png" alt="Logo lupa" />
-        </button>
+        </Button>
       </div>
 
 
