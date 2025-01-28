@@ -64,7 +64,7 @@
     width: 700px;
     height: 472px;
     background-color: #005EB8;
-    border-radius: 24px;
+    border-radius: 24px 0px 0px 24px;
     z-index: 1; /* Asegura que el fondo esté detrás de los cuadros */
   }
   
