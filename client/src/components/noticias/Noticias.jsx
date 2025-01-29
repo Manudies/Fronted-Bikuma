@@ -44,7 +44,7 @@ const Carousel = () => {
         <div className="noticias">
             <h2>Conoce las últimas novedades de Puntodis</h2>
             <div className="carousel-container">
-            <Slider {...settings}>
+            {/* <Slider {...settings}>
                 {cards.map((card, index) => (
                 <div key={card.id}>
                     <div className="card-container">
@@ -58,7 +58,7 @@ const Carousel = () => {
                     </div>
                 </div>
                 ))}
-            </Slider>
+            </Slider> */}
             </div>
       </div>
   );
