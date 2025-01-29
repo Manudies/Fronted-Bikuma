@@ -6,6 +6,7 @@ import Noticias2 from './components/noticias2/Noticias2'
 import Servicios from './components/servicios/Servicios'
 import Quienes from './components/quienes/Quienes'
 import Product from './components/productos/Productos'
+import Proyectos from './components/proyectos/Proyectos'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Servicios />
         <Quienes />
         <Product />
+        <Proyectos />
 
       </div>
     </>
