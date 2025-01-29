@@ -1,0 +1,40 @@
+.quienes{
+    width: 100%;
+    height: 551px;
+    background-color: #F6F9FE;
+}
+
+.quines-fondo{
+    display: flex;
+    width: 100%;
+    height: 551px;
+}
+
+.quienes-text{
+    position: relative;
+    top :-450px;
+    left: 53%;
+    width: 531px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    text-align: start;
+    color: #FFFFFF;
+    font-family: Atkinson Hyperlegible;
+}
+
+.quienes-text h3{
+    font-size: 37px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.quienes-text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.quienes-text button{
+    margin-top: 30px;
+}
