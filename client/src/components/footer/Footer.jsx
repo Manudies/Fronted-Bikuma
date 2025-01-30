@@ -1,58 +1,46 @@
-import './footer.css';
-import { FiYoutube } from "react-icons/fi";
-import { AiOutlineFacebook } from "react-icons/ai";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
-import { CiMail } from "react-icons/ci";
-import { AiOutlinePhone } from "react-icons/ai";
-
+import React from "react";
+import Button from "../button/Button";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        
-        <div className="footer-left">
-          <div className="footer-logo">
-            <img src="./seniority_logoblanco_sinfondo_uso_en_fondo_oscuro2.png" alt="logo" />
-          </div>
-          <div className="policy-text">
-            <p className="footer-text">© Seniority 2024</p>
-            <a href="#condiciones" className="footer-text-link"><p>Condiciones de Uso</p></a>
-            <a href="#privacidad" className="footer-text-link"><p>Política de Privacidad</p></a>
-            <a href="#cookies" className="footer-text-link"><p>Política de Cookies</p></a>
-          </div>
+        <div className="footer-section">
+          <img src="./logotipo.png" alt="Logo Puntodis" />
+          <p>
+            Actualiza con nosotros tu proyecto con accesibilidad en la
+            información y lleva tu mensaje a todas las personas
+          </p>
+          <Button children={"Contactar"} className={"contactar3"}>
+            Contactar
+            <img src="./flecha-correcta.png" alt="Contacta con Nosotros" />
+          </Button>
+          <img src="./logos_Aenor.png" alt="Logos de Aenor" />
         </div>
-
-        <div className="footer-middle">
-          <div className="footer-icons">
-            <a href="https://www.youtube.com" className='icon-link' target='_blank' rel='noopener noreferrer'>
-              <FiYoutube className='footer-icon' />
-            </a>
-            <a href="https://www.facebook.com" className='icon-link' target='_blank' rel='noopener noreferrer'>
-              <AiOutlineFacebook className='footer-icon' />
-            </a>
-            <a href="https://www.whatsapp.com" className='icon-link' target='_blank' rel='noopener noreferrer'>
-              <AiOutlineWhatsApp className='footer-icon' />
-            </a>
-            <a href="https://www.instagram.com" className='icon-link' target='_blank' rel='noopener noreferrer'>
-              <FaInstagram className="footer-icon" />
-            </a>
-          </div>
+        <div className="footer-section">
+          <ul>
+            <li>Productos</li>
+            <li>Servicios</li>
+            <li>Administración pública</li>
+            <li>Conócenos</li>
+            <li>Actualidad</li>
+            <li>Tienda</li>
+          </ul>
         </div>
-
-        <div className="footer-right">
-          <div className="contact-text">
-            <p className='heading'>Contacta</p>
-            <p><CiMail className='contact-icon' /> info@seniority.com</p>
-            <p><AiOutlinePhone className='contact-icon' /> +34 603 180 484</p>
-          </div>
-          </div>
-
-        <div className='enisa-contaner'>
-            <img src="./Sello_Enisa_Horizontal_Color-removebg.png" alt="enisa-logo" className='enisa-png'/>
-          </div>
-
+        <div class="newsletter-section">
+          <h2>¿Quieres estar al día con las noticias de accesibilidad?</h2>
+          <p>Suscríbete a la newsletter</p>
+          <form class="newsletter-form">
+            <input type="text" placeholder="Nombre" required />
+            <input type="email" placeholder="Email" required />
+            <label>
+              <input type="checkbox" required />
+              Acepto la política de privacidad
+            </label>
+            <Button children={"Suscribirme"} className={"suscribirme"}></Button>
+          </form>
+        </div>
       </div>
     </footer>
   );

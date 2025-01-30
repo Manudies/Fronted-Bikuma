@@ -8,6 +8,7 @@ import Quienes from './components/quienes/Quienes'
 import Product from './components/productos/Productos'
 import Proyectos from './components/proyectos/Proyectos'
 import Logos from './components/logos/Logos'
+import Footer from './components/footer/Footer'
 import './App.css'
 
 function App() {
@@ -16,12 +17,14 @@ function App() {
       <div>
         <Hero />
         <Cta />
-        <Noticias />
+        <Noticias2 />
         <Servicios />
         <Quienes />
         <Product />
         <Proyectos />
         <Logos />
+        <Footer />
+
 
       </div>
     </>

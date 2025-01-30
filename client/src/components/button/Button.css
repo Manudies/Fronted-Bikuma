@@ -39,6 +39,30 @@
     filter: invert(98%) sepia(1%) saturate(138%) hue-rotate(132deg) brightness(117%) contrast(100%);
 }
 
+.button-contactar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 201px;
+    background-color: #d50032; 
+    color: rgb(255, 255, 255); 
+    font-size: 18px; 
+    font-weight: 700; 
+    padding: 16px 24px;
+    gap: 8px;
+    border: none; 
+    border-radius: 33px; 
+    line-height: 21.6px;
+    cursor: pointer;
+}
+
+.button-contactar3 img {
+    height: 16px;
+    width: 16px;
+    filter: invert(98%) sepia(1%) saturate(138%) hue-rotate(132deg) brightness(117%) contrast(100%);
+}
+
 .button-tienda {
     display: flex;
     justify-content: center;
