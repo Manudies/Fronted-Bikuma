@@ -22,7 +22,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .service-card:hover {
+    .card-container2 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 1);
   }
