@@ -12,7 +12,7 @@ const cards = [
   { id: 5, category: "Señalética", title: "Manual de señalización accesible", image: "/C5.png" },
 ];
 
-const NoticiasSlider = () => {
+const Noticias = () => {
   const settings = {
     className: "center",
     centerMode: false,
