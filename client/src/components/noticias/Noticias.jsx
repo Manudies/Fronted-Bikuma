@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Noticias.css"; // Archivo de estilos
 
 const cards = [
-  { id: 1, category: "Turismo", title: "¿Tienes cita en Fitur? La accesibilidad estará en tu agenda", image: "/C1.png" },
+  { id: 1, category: "Señalética", title: "Manual de señalización accesible", image: "/C1.png" },
   { id: 2, category: "Turismo", title: "¿Tienes cita en Fitur? La accesibilidad estará en tu agenda", image: "/C2.png" },
-  { id: 3, category: "Análisis", title: "Piensa en más accesibilidad para personas con Asperger", image: "/C3.png" },
-  { id: 4, category: "Proyecto", title: "Políticas de accesibilidad en Kirguistán", image: "/C4.png" },
-  { id: 5, category: "Señalética", title: "Manual de señalización accesible", image: "/C5.png" },
+  { id: 3, category: "Análisis", title: "¿Tienes cita en Fitur? La accesibilidad estará en tu agenda", image: "/C3.png" },
+  { id: 4, category: "Proyecto", title: "Piensa en más accesibilidad para personas con Asperger", image: "/C4.png" },
+  { id: 5, category: "Proyecto", title: "Polideportivos con accesibilidad en Bilbao Kirolak", image: "/C5.png" },
 ];
 
 const Noticias = () => {

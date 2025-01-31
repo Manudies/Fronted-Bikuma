@@ -7,7 +7,7 @@ import "./Proyectos.css";
 const cards = [
   { id: 1, category: "Palma de Mallorca", title: "Manual de señalización accesible para un mundo más inclusivo", image: "/C1.png" },
   { id: 2, category: "Bilbao", title: "La estrategía integral para el fomento de la accesibilidad en bilbobus", image: "/Pr2.png" },
-  { id: 3, category: "Bilbao", title: "Alhóndiga bilbao - centro azkuna, pensando en la accesibilidad de todos", image: "/Pr3.png" },
+  { id: 3, category: "Bilbao", title: "Alhóndiga bilbao centro azkuna, pensando en la accesibilidad de todos", image: "/Pr3.png" },
   { id: 4, category: "Vila Joiosa", title: "Vilamuseu <<museos para todos>>", image: "/Pr4.png" },
   { id: 5, category: "Getxo", title: "La accesibilidad en el turismo entra ya en el siguiente nivel", image: "/Pr5.png" },
 ];
@@ -46,11 +46,11 @@ const Proyectos = () => {
               <div key={card.id} className="card">
                 <img src={card.image} alt={card.title} className="card-image" />
                 <div className="card-content">
+                  <h3 className="notice-card-title">{card.title}</h3>
                     <div className="notice-card-category-container">
                         <img src="/ubi2.png" alt="" />
                         <span className="notice-card-category">{card.category}</span>
                     </div>
-                  <h3 className="notice-card-title">{card.title}</h3>
                 </div>
               </div>
             ))}

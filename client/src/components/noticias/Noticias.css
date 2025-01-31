@@ -44,14 +44,14 @@
 .card-category {
   display: block;
   color: #005EB8;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .card-title {
   color: #041E49;
-  font-size: 25.92px;
+  font-size: 21.6px;
   font-weight: 700;
   line-height: 28.51px;
   margin: 0;
