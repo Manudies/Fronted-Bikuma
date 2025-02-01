@@ -5,10 +5,8 @@ import "./Quienes.css";
 const Quienes = () => {
     return (
         <div className="quienes">
-            <div className="quienes-fondo">
-                <img src="./Quienes.png" alt="Logo de persona en un ordenador escuchando la página web" />
-            </div>
-
+            <div></div>
+            <div></div>
             <div className="quienes-text">
                 <h3>
                     Somos consultores de Accesibilidad Universal

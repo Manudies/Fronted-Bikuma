@@ -1,8 +1,14 @@
 .quienes{
     width: 100%;
     height: 551px;
+    /* overflow: hidden; */
+    padding-top: 80px;
+    background: url('./Quienes.png') no-repeat center center;
     background-color: #F6F9FE;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.8fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .quines-fondo{
@@ -12,17 +18,15 @@
 }
 
 .quienes-text{
-    position: relative;
-    top :-450px;
-    left: 53%;
+    display: flex;
     width: 531px;
     height: 383px;
-    display: flex;
     flex-direction: column;
     justify-content:start;
     text-align: start;
     color: #FFFFFF;
     font-family: Atkinson Hyperlegible;
+
 }
 
 .quienes-text h3{
@@ -38,4 +42,49 @@
 
 .quienes-text button{
     margin-top: 30px;
+}
+
+@media screen and (max-width: 1320px) {
+    .quienes{
+        background: url('./Quienes2.png') no-repeat center center;
+        background-color: #F6F9FE;
+        height: 1225px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        
+
+    }
+
+    .quienes-text{
+        padding: 0 0 180px 10px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .quienes{
+        background-size: 100% auto ;
+        padding: 0px;
+        height: 800px;
+    }   
+    .quienes-text{
+        width: 350px;
+        padding: 0 0 0px 10px;
+    }
+    .quienes-text h3{
+        font-size: 28px;
+    }
+    .quienes-text p{
+        font-size: 14px;
+    }
+    .button-contactar2{
+        font-size: 12px;
+        height: 43px;
+        width: 204px;
+    }
+    .quienes-text button {
+        margin-top: 15px;
+    }
 }
