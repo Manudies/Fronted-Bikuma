@@ -72,6 +72,7 @@
   color: #005EB8;
   align-items: center;
   gap: 8px;
+  padding: 0 30px 0 0;
 }
 
 .menu-toggle span {
@@ -109,6 +110,33 @@
   flex-direction: column;
   list-style: none;
   gap: 10px;
+}
+
+.mobile-links a {
+  text-decoration: none;
+  font-family: Atkinson Hyperlegible;
+  color: #041E49;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mobile-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #0060A8;
+  transition: width 0.3s ease;
+}
+
+/* .mobile-links a:hover::after {
+  width: 100%;
+} */
+
+.mobile-links a:hover {
+  color: #0060A8;
 }
 
 /* Media Queries */
