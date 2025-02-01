@@ -5,7 +5,6 @@ import Button from '../button/Button';
 const Hero = () => {
     return (
         <div className='hero'>
-            <Navbar></Navbar>
             <div className='hero-container'>
                 <div className='hero-text'>
                     <h1>¿Cumples con las normativas de accesibilidad universal?</h1>
@@ -17,19 +16,8 @@ const Hero = () => {
 
                 </div>
                 <div className='hero-image'>
-                    <div className='cuadros'>
-                        <img src="./señal.png" alt="Logo audición" />
-                        <img src="./señan.png" alt="Logo silla de ruedas" />
-                    </div>
-                    <div className='fondo'></div>
                     <div className='persona'>
-                        <img src="./Persona.png" alt="Persona" />
-                    </div>
-                    <div className='movil'>
-                        <img src="./movil.png" alt="teléfono movil" />
-                    </div>
-                    <div className='qr'>
-                        <img src="./qr.png" alt="código qr" />
+                        <img src="./Ilustracion2.png" alt="Persona" />
                     </div>
                 </div>
             </div>
