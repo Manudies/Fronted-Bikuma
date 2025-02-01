@@ -16,9 +16,12 @@ const Noticias = () => {
   const settings = {
     className: "center",
     centerMode: false,
-    infinite: false,
+    infinite: true,
     centerPadding: "0",
-    slidesToShow: 3,
+    slidesToShow: 3.2,
+    speed: 1000, // Velocidad de la transición en ms
+    autoplay: true, // Activa el desplazamiento automático
+    pauseOnHover: true, // Pausa autoplay al pasar el mouse
     responsive: [
       {
         breakpoint: 1024, // Ajustes para pantallas medianas
