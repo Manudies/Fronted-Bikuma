@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-section">
+        <div className="footer-section1">
           <img src="./logotipo.png" alt="Logo Puntodis" />
           <p>
             Actualiza con nosotros tu proyecto con accesibilidad en la

@@ -49,7 +49,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 669px;
     height: 472px;
     position: relative; /* Añadido para posicionar correctamente los hijos */
   }
@@ -134,15 +133,43 @@
   }
 
   @media screen and (max-width: 650px) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-container{
+      width: 300px;
+      }
+
+     .hero-text{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .hero-text h1{    
+      width: 80vw;
       font-size: 35px;
     }
 
     .hero-text h2{
+      width: 80vw;
       font-size: 15px;
     }
+
+    .persona{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+    }
+
     .persona img{
-      width: auto;
+      width: 100vw;
       height: 290px;
+      scale: 90%;
+
     }
   } 

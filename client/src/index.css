@@ -1,8 +1,12 @@
 :root {
     font-family: Atkinson Hyperlegible;
+    
 }
 
 body {
   margin: 0; 
   padding: 0; 
+}
+.slick-next {
+  right: 0px;
 }
