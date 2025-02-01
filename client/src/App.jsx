@@ -10,11 +10,13 @@ import Proyectos from './components/proyectos/Proyectos'
 import Logos from './components/logos/Logos'
 import Footer from './components/footer/Footer'
 import './App.css'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
     <>
       <div>
+        <Navbar />
         <Hero />
         <Cta />
         <Noticias />
